@@ -5,5 +5,6 @@ This is a container customised for personal use. Currently, the customised part 
 
 + repository: http://mirrors.aliyun.com
 + tools   
-  - `curl`  
-  - `git`
+  - `curl`   
+  - `git`  
+  - `dep`  
