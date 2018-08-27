@@ -7,6 +7,3 @@ This is a container customised for personal use. Currently, the customised part 
 + tools   
   - `curl`  
   - `git`
-
-## Tags  
-+ v1.10.3
