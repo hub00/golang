@@ -1,10 +1,16 @@
-# Golang Development Based on Apline Linux
+# Golang Development Environment  
 
 ## Overview  
-This is a container customised for personal use. Currently, the customised part goes as follows:  
+This is a container customised for personal use. 
 
+### Official-Based  
+Currently, the customised part goes as follows:  
++ tools:  
+  - [`dep`](https://github.com/golang/dep)
+
+### Alpine Linux-Based  
+Currently, the customised part goes as follows:  
 + repository: http://mirrors.aliyun.com
 + tools   
-  - `curl`   
   - `git`  
-  - `dep`  
+  - [`dep`](https://github.com/golang/dep)

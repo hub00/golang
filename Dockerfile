@@ -1,6 +1,3 @@
-FROM golang:1.10.3-alpine3.8
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories &&\
-  apk update &&\
-  apk add curl git &&\
-  curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+FROM golang:1.11.0
+RUN go get -u -v github.com/golang/dep/cmd/dep
 WORKDIR /go/src/github.com
