@@ -8,6 +8,8 @@ Currently, the customised part goes as follows:
 + tools:  
   - [`dep`](https://github.com/golang/dep)
 
+> DNS searching for 'go.googlesource.com' is down for unknown reason
+
 ### Alpine Linux-Based  
 Currently, the customised part goes as follows:  
 + repository: http://mirrors.aliyun.com
