@@ -14,3 +14,5 @@ Currently, the customised part goes as follows:
 + tools   
   - `git`  
   - [`dep`](https://github.com/golang/dep)
+
+> Race detection is broken in alpine-linux-based container
